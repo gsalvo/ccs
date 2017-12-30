@@ -1,7 +1,4 @@
 RewriteEngine On
-#SetEnvIf Host www.yoursite.tld$ CI_ENV=production
-#SetEnvIf Host www.blackbirdhq.cl/puntopais$ CI_ENV=testing
-#SetEnvIf Host localhost$ CI_ENV=development
 
 RewriteCond $1 !^(index\.php|resources|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
