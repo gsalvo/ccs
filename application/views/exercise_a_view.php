@@ -8,7 +8,7 @@
 				<p>Estimado usuario, a continuación se presenta un grilla con la información de los índices. Para esto debe completar el formulario que se encuentra a continuación y presionar el botón "Buscar Datos". Si desea realizar una búsqueda de todos los índices puede dejar el campo índice sin completar.</p>
 			</div>
 		</div>
-		<?php echo form_open("exercisea", array("id"=>"form-exercise1", "autocomplete"=>"off")); ?>
+		<?php echo form_open("ExerciseA", array("id"=>"form-exercise1", "autocomplete"=>"off")); ?>
 			<div class="row">			
 				<div class="col-md-6">
 					<div class="form-group">

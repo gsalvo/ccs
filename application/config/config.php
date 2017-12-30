@@ -24,7 +24,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/ccs/';
-
+/*if(strpos($_SERVER['HTTP_HOST'],'www')===false){
+    $config['base_url'] = 'http://blackbirdhq.cl/ccs';
+}else{
+    $config['base_url'] = 'http://www.blackbirdhq.cl/ccs';
+}
+/*
 /*
 |--------------------------------------------------------------------------
 | Index File

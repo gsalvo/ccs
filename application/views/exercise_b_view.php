@@ -8,7 +8,7 @@
 				<p>Estimado usuario, a continuación se presenta un formulario que deberá completar para generar el gráfico que desee.</p>
 			</div>
 		</div>
-		<?php echo form_open("exerciseb", array("id"=>"form-exercise2", "autocomplete"=>"off")); ?>		  
+		<?php echo form_open("ExerciseB", array("id"=>"form-exercise2", "autocomplete"=>"off")); ?>		  
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">

@@ -35,8 +35,8 @@
 			<div class="col-md-12">
 				<h3>Prueba técnica CCS</h3>
 				<ul class="nav nav-tabs">
-					<li id="btn-1" role="presentation" class="active"><a href="<?php echo site_url('exercisea') ?>">Ejercicio 1</a></li>
-					<li id="btn-2" role="presentation"><a href="<?php echo site_url('exerciseb') ?>">Ejercicio 2</a></li>
+					<li id="btn-1" role="presentation" class="active"><a href="<?php echo site_url('ExerciseA') ?>">Ejercicio 1</a></li>
+					<li id="btn-2" role="presentation"><a href="<?php echo site_url('ExerciseB') ?>">Ejercicio 2</a></li>
 				</ul>		
 			</div>				
 		</div>

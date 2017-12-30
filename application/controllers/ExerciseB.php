@@ -64,7 +64,7 @@ class ExerciseB extends MY_Controller {
 
 			if($errors){
 				$this->session->set_flashdata('flashMessage', 'true');
-				redirect('exerciseb');
+				redirect('ExerciseB');
 			}else{
 				$auxDates = current($result);
 				$data['labels'] = array_keys($auxDates);

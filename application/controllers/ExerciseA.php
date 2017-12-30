@@ -36,7 +36,7 @@ class ExerciseA extends MY_Controller {
 			curl_close($curl);
 			if ($err) {
 				$this->session->set_flashdata('flashMessage', 'true');
-				redirect('exercisea');
+				redirect('ExeriseA');
 			} else {
 				$auxResult = json_decode($response, TRUE);
 				if($auxResult['code'] == 0 && $auxResult['message'] == 'OK'){
@@ -47,7 +47,7 @@ class ExerciseA extends MY_Controller {
 					$data['result'] = $result;										
 				} else{
 					$this->session->set_flashdata('flashMessage', 'true');
-					redirect('exercisea');
+					redirect('ExerciseA');
 				}							
 							
 			}	
