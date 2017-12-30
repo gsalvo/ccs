@@ -155,9 +155,8 @@ button .spinner .rect3,
 }
 
 
-.exercise2 {
-	margin-top: 30px;
-}
-.exercise2 .time-options {
+.exercise2 .chart-content {	
+	max-height: 500px;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }

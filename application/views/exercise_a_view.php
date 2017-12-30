@@ -58,6 +58,10 @@
 </div>
 <script type="text/javascript">
 	$(function(){
+		$('#btn-1').removeClass();
+		$('#btn-2').removeClass();
+		$('#btn-1').addClass('active');
+		
 		$('.btn-search').on('click', function() {
 			var $this = $(this);
 			$this.button('loading');			
