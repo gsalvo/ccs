@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  
+    <symbol id="icon-alert" viewBox="0 0 512 512">
+      <path d="m0 477l512 0-256-442z m279-70l-46 0 0-46 46 0z m0-93l-46 0 0-93 46 0z"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 512 512">
+      <path d="m256 30c-125 0-226 101-226 226 0 125 101 226 226 226 125 0 226-101 226-226 0-125-101-226-226-226z m-45 339l-114-113 32-32 81 81 171-171 32 32z"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 512 512">
+      <path d="m478 79l-45-45-177 178-177-178-45 45 178 177-178 177 45 45 177-178 177 178 45-45-178-177z"/>
+    </symbol>    
+    <symbol id="icon-warning" viewBox="0 0 512 512">
+      <path d="m17 463l478 0-239-414z m260-66l-43 0 0-44 43 0z m0-86l-43 0 0-87 43 0z"/>
+    </symbol>  
+    
+  
+</svg>

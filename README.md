@@ -1,2 +1,0 @@
-# ccs
-apply to ccs
